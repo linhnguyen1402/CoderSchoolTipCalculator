@@ -112,7 +112,7 @@
         <!--Settings-->
         <scene sceneID="ncS-qu-gku">
             <objects>
-                <viewController id="YW3-sW-c2Z" sceneMemberID="viewController">
+                <viewController id="YW3-sW-c2Z" customClass="SettingsViewController" customModule="tipcalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9nd-Yw-gVF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,11 +132,17 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="tipPercentSettingsValueChange:" destination="YW3-sW-c2Z" eventType="valueChanged" id="LkN-KM-uvl"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="bSC-EH-HYI"/>
+                    <connections>
+                        <outlet property="tipPercentSettings" destination="X8Q-C6-cWP" id="xln-v8-2cR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IZb-VK-Y4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
