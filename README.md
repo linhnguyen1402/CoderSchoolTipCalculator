@@ -24,6 +24,8 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 - changing tip percentage amount of three segments in UISegmentedControl
+- adding splash screen
+- applying animation
 
 ## Video Walkthrough 
 Jing: https://screencast.com/t/nZGO60X3B0K
@@ -35,6 +37,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+Working good on Iphone 5
 
 Describe any challenges encountered while building the app.
 
